@@ -77,7 +77,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: red;
 }
 .depth1 {
   display: flex;
@@ -112,7 +111,7 @@ nav {
     "a b b"
     "a c c"
     "a c c";
-  background-color: greenyellow;
+  background-color: #e5e5e5;
   margin-bottom: 30px;
 }
 .image1 {
@@ -176,8 +175,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.1);
   border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 .pb-2 {
   font-size: 30px;
