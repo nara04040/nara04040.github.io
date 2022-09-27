@@ -18,7 +18,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">blabla</a>
+        <a href="#" class="nav__logo">My Logo</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -43,6 +43,8 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -96,7 +98,7 @@
                 오늘보다 더 나은 내일을 위한 노력을하는 사람입니다.오늘보다 더 나은 내일을 위한 노력을하는 사람입니다.오늘보다 더 나은 내일을 위한 노력을하는 사람입니다.오늘보다 더 나은 내일을 위한
                 노력을하는 사람입니다.
               </p>
-              <a href="#contact" class="button button--flex"> Contact Me <i class="uil uil-envelopes"></i> </a>
+              <a href="#contact" class="button button--flex button--white"> Contact Me <i class="uil uil-envelopes"></i> </a>
             </div>
           </div>
           <div class="home__scroll">
@@ -135,7 +137,7 @@
               </div>
             </div>
             <div class="about__buttons">
-              <a download="" href="#" class="button button--flex"> Download<i class="uil uil-import button__icon"></i> </a>
+              <a download="" href="#" class="button button--flex"><i class="uil uil-import button__icon"></i> </a>
             </div>
           </div>
         </div>
@@ -391,10 +393,10 @@
       <section class="portfolio section" id="portfolio">
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">my works</span>
-        <div class="portfolio__container container">
-          <div>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
             <!--==================== PORTFOLIO 1====================-->
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img" />
               <div class="portfolio__data">
                 <h3 class="portfolio__title">웹사이트!</h3>
@@ -405,8 +407,7 @@
                 </a>
               </div>
             </div>
-
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -418,7 +419,7 @@
                 </a>
               </div>
             </div>
-            <div class="portfolio__content grid">
+            <div class="portfolio__content grid swiper-slide">
               <img src="./assets/img/portfolio1.jpg" alt="" class="portfolio__img" />
 
               <div class="portfolio__data">
@@ -431,24 +432,75 @@
               </div>
             </div>
           </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
       <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section"></section>
+      <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">ooooo11111</h2>
+              <p class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsum excepturi voluptatum facere ipsa vel, tempore odio earum veritatis vitae?</p>
+              <a href="#contact" class="button button--flex button--white"> Contact Me <i class="uil uil-link-alt button__icon"></i> </a>
+            </div>
+            <img src="assets/img/Jjanggu.png" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+      <section class="testimonial section">
+        <h2 class="section__title"></h2>
+      </section>
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact"></section>
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Yoo Hannara</h1>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Contactme</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a href="www.instagram.com" target="_blank" class="footer__social"> <i class="uil uil-instagram-alt"></i></a>
+            <a href="www.velog.com" target="_blank" class="footer__social"> <i class="uil uil-document-layout-left"></i></a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; 카피라이트 뭐시기뭐시기뭐시기</p>
+      </div>
+    </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
