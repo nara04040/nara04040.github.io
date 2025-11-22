@@ -1,5 +1,19 @@
 [
   {
+    "file": "nextjs-16-react-19-2025.md",
+    "title": "Next.js 16과 React 19: 2025년 웹 개발의 새로운 패러다임",
+    "date": "2025-01-26",
+    "tags": [
+      "Next.js",
+      "React",
+      "Web Development",
+      "JavaScript"
+    ],
+    "category": "Development",
+    "description": "Next.js 16과 React 19의 혁신적인 기능들을 살펴보고, 2025년 웹 개발 트렌드를 분석합니다.",
+    "excerpt": "2025년 10월, Next.js 16이 공식 출시되면서 React 생태계에 새로운 변화가 시작되었습니다. 이번 릴리스는 단순한 업데이트가 아닌, 성능과 개발자 경험을 혁신하는 중요한 이정표입니다. 특히 React 19.2의 통합과 함께 도입된 새로운 기능들은 웹 개발의 미래를 보여줍니다. Next.js 16의 가장 큰 변화는 Cache Components 시스템의 도입입니다. 기존의 암묵적인 캐싱 방식에서 벗어나, 개발자가 명시적으로 캐싱을 제어할 수 있게 되었습니다..."
+  },
+  {
     "file": "example.md",
     "title": "첫 번째 게시글",
     "date": "2025-01-26",
