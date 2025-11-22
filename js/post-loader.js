@@ -112,9 +112,9 @@
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'nara04040/nara04040.github.io');
-    script.setAttribute('data-repo-id', 'YOUR_REPO_ID');
+    script.setAttribute('data-repo-id', 'R_kgDOQYl_Aw');
     script.setAttribute('data-category', 'General');
-    script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID');
+    script.setAttribute('data-category-id', 'DIC_kwDOQYl_A84CyEsB');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
